@@ -1,9 +1,5 @@
 import React from "react";
 import "./SignupPage.css";
-import NavBarComp from "./NavBarComp";
-import { Form } from "react-bootstrap";
-import { Button } from "react-bootstrap";
-import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Select from "react-select";
 import "bootstrap/dist/css/bootstrap.min.css";

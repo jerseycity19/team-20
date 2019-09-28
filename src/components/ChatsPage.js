@@ -3,16 +3,13 @@ import "./ChatsPage.css";
 import {
   Card,
   CardImg,
-  CardText,
   CardBody,
   CardTitle,
-  CardSubtitle,
   Button,
   Container,
   Row,
   Col,
   Badge,
-  Jumbotron
 } from "reactstrap";
 
 function ChatsPage() {
