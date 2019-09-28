@@ -28,7 +28,7 @@ function UserProfilePage() {
               </Col>
           </Col>        
         </Row>
-        <Row className='text-center additional-bottom-padding'>
+        <Row className='additional-bottom-padding pb-lg-5 pt-lg-5 pl-lg-5 pr-lg-5 row text-center'>
           <Col><Card className="bg-dark text-black">
               <Card.Img src="https://s3.amazonaws.com/media.eremedia.com/wp-content/uploads/2018/04/06122011/story.jpeg" alt="Card image" width = {500} height = {300} style = {{opacity: .5}}/>
               <Card.ImgOverlay>
@@ -52,7 +52,7 @@ function UserProfilePage() {
             </Card>
           </Col>
         </Row>
-        <Row className='text-center additional-bottom-padding'>
+        <Row className='additional-bottom-padding pb-lg-5 pt-lg-5 pl-lg-7 pr-lg-7 row text-center'>
           <Col><Card className="bg-dark text-black" width = {500} height = {300}>
               <Card.Img src="http://www.cmu.edu/assets/images/site/meta-image-cmu.jpg" alt="Card image"  style = {{opacity: .5}}/>
               <Card.ImgOverlay>
