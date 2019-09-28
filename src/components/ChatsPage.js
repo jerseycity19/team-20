@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import "./ChatsPage.css";
 import {
   Card,
@@ -31,7 +32,7 @@ function ChatsPage() {
                 </span>
               </h5>
 
-              <Button href="/video">Enter</Button>
+              <Link to='/video'>Enter</Link>
             </CardBody>
           </Card>
         </Col>

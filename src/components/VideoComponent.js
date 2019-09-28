@@ -6,7 +6,7 @@ import TextField from 'material-ui/TextField';
 import { Card, CardHeader, CardText } from 'material-ui/Card';
 import {withRouter} from 'react-router';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
-
+import Survey from './Survey'
 class VideoComponent extends Component {
 	constructor(props) {
 		super();
@@ -19,6 +19,8 @@ class VideoComponent extends Component {
 			hasJoinedRoom: false,
 			activeRoom: '' // Track the current active room
 		};
+		this.onclickhelper = this.onclickhelper.bind(this);
+		this.routeChange = this.routeChange.bind(this);
 		this.joinRoom = this.joinRoom.bind(this);
 		this.handleRoomNameChange = this.handleRoomNameChange.bind(this);
 		this.roomJoined = this.roomJoined.bind(this);
@@ -154,13 +156,23 @@ class VideoComponent extends Component {
           */
           const { identity, token } = results.data;
           this.setState({ identity, token });
-        });
+		});
+		
       }
 
 	leaveRoom() {
 		this.state.activeRoom.disconnect();
 		this.setState({ hasJoinedRoom: false, localMediaAvailable: false });
 	}
+
+	onclickhelper(){
+		this.leaveRoom();
+		this.routeChange();
+	}
+	routeChange() {
+		let path = `/survey`;
+		this.props.history.push(path);
+	  }
 
 	render() {
 		// Only show video track after user has joined a room
@@ -173,9 +185,11 @@ class VideoComponent extends Component {
 		);
 		// Hide 'Join Room' button if user has already joined a room.
 		let joinOrLeaveRoomButton = this.state.hasJoinedRoom ? (
-			<RaisedButton label="Leave Room" secondary={true} onClick={this.leaveRoom} />
+			<RaisedButton label="Leave Room" secondary={true} onClick={this.onclickhelper} />
 		) : (
+			<div>
 			<RaisedButton label="Join Room" primary={true} onClick={this.joinRoom} />
+			</div>
 		);
 		return (
             <MuiThemeProvider>
