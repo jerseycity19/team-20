@@ -29,7 +29,7 @@ function ChatsPage() {
                 </span>
               </h5>
 
-              <Link to='/video'>Enter</Link>
+              <Button href='/video'>Enter</Button>
             </CardBody>
           </Card>
         </Col>
