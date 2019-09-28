@@ -1,12 +1,13 @@
 import React from "react";
 import "./HomePage.css";
+import { Link } from 'react-router-dom'
 
 function HomePage() {
   return (
     <div className="wholePage">
       <div className="topNavBar">
-        <btn className="infoButton"> LOG IN </btn>
-        <btn className="infoButton"> SIGN UP </btn>
+        <Link to={'/login'} className="infoButton">LOG IN</Link>
+        <Link to={'/signup'} className="infoButton">SIGN UP</Link>
       </div>
       <div className="middleInfo">
         <text className="appName"> Globe Chat </text>

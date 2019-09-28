@@ -7,6 +7,13 @@
   margin-top: 1%;
 }
 
+.infoButton:hover {
+  text-decoration: none;
+  color: gray;
+  border-color: gray;
+  background-color: salmon
+}
+
 .infoButton {
   padding: 0.25% 1%;
   margin-right: 2%;
@@ -15,7 +22,6 @@
   font-size: 70%;
   font-family: "Abel";
   color: teal;
-  height: 10vh;
 }
 
 .middleInfo {
@@ -25,10 +31,11 @@
   justify-content: center;
   display: flex;
   margin-top: -1%;
-  background-image: url("https://www.stickpng.com/assets/images/580b585b2edbce24c47b2d44.png");
+  margin-bottom: 2%;
+  /* background-image: url("https://www.stickpng.com/assets/images/580b585b2edbce24c47b2d44.png");
   background-size: 60% 90%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
 }
 
 text {
@@ -44,6 +51,5 @@ text {
 }
 
 .bottomInfo {
-text-align: center;
-margin: 5%
+  text-align: center;
 }
