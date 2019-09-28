@@ -1,8 +1,10 @@
+  
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import logo from './logo.svg';
 import './App.css';
 import HomePage from './components/HomePage';
-import LoginPage from './components/LoginPage';
+import UserProfilePage from './components/user_profile_page';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -12,7 +14,7 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" render={HomePage} />
-          <Route exact path="/login" render={LoginPage} />
+          <Route exact path="/UserProfilePage" render={UserProfilePage} />
         </Switch>
       </Router>
       </header>
