@@ -4,11 +4,11 @@ import './UserProfilePage.css'
 function UserProfilePage() {
   return (
     <div className="shopping-list">
-      <h1>Shopping List</h1>
+      <h1>Sarah Jang</h1>
       <ul>
-        <li>Instagram</li>
-        <li>WhatsApp</li>
-        <li>Oculus</li>
+        <li>Country</li>
+        <li>Ethnicity</li>
+        <li>Age: 19</li>
       </ul>
     </div>
   );

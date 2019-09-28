@@ -14,7 +14,7 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/HomePage" render={HomePage} />
-          <Route exact path="/user_profile_page" render={UserProfilePage} />
+          <Route exact path="/" render={UserProfilePage} />
         </Switch>
       </Router>
       </header>
