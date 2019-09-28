@@ -23,6 +23,13 @@ const Countries = [
   { label: "USA" }
 ];
 
+const Age = [
+  { label: "16" },
+  { label: "17" },
+  { label: "18" },
+  { label: "19" }
+]
+
 function LoginPage() {
   return (
     <div className="wrapper">
@@ -39,6 +46,10 @@ function LoginPage() {
         <label>
           Password:
           <input type="password" className="signupInput" />{" "}
+        </label>
+        <label>
+          Age:
+          <Select options={Age} id="optionStuff" />
         </label>
         <label>
           Country:
