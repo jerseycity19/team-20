@@ -1,18 +1,31 @@
 import React from "react";
 import "./HomePage.css";
+import { Link } from "react-router-dom";
 
 function HomePage() {
   return (
-    <div className="wholePage">
+    <div>
       <div className="topNavBar">
-        <btn> Log In </btn>
-        <btn> Sign Up </btn>
+        <img
+          src="https://www.stickpng.com/assets/images/580b585b2edbce24c47b2d44.png"
+          className="logo"
+        />
+        <text className="logo" id="logo">
+          {" "}
+          Globe Chat{" "}
+        </text>
+        <Link to={"/login"} className="infoButton">
+          LOG IN
+        </Link>
+        <Link to={"/signup"} className="infoButton">
+          SIGN UP
+        </Link>
       </div>
       <div className="middleInfo">
-        <h1> Globe Chat </h1>
-        <h3> Team20 </h3>
+        <text className="appName"> Globe Chat </text>
       </div>
       <div className="bottomInfo">
+        <h3>About Us</h3>
         Global Nomads Group harnesses the power of peer learning, intergroup
         contact theory, and storytelling in order to prepare young people to
         thrive in the 21st Century and lead positive change in their
