@@ -25,7 +25,7 @@ function HomePage() {
         <text className="appName"> Globe Chat </text>
       </div>
       <div className="bottomInfo">
-        <h3>About Us</h3>
+        <h2>About Us</h2>
         Global Nomads Group harnesses the power of peer learning, intergroup
         contact theory, and storytelling in order to prepare young people to
         thrive in the 21st Century and lead positive change in their
