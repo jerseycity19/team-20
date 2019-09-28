@@ -8,6 +8,7 @@ import LoggedInLand from './components/logged_in_pg';
 import UserProfilePage from './components/user_profile_page';
 import SignupPage from './components/SignupPage';
 import ChatsPage from './components/ChatsPage';
+import Survey from './components/Survey';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route exact path="/loggedin" render={LoggedInLand}/>
           <Route exact path="/profile" render={UserProfilePage} />
           <Route exact path="/chat" render={ChatsPage} />
+          <Route exact path="/survey" render={Survey} />
         </Switch>
       </Router>
       </header>
