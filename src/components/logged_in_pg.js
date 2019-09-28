@@ -1,12 +1,23 @@
 import React from 'react';
-import ChatRoom from './ChatRoom';
+//import ChatRoom from './ChatRoom';
+import { Card } from "react-bootstrap";
 import { Container, Row, Col } from 'reactstrap';
 function LoggedInLand() {
 
      return (
       <Container>
+
         <Row>
-        <Col ><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png" alt="united states" height={140} width={280}/> </Col>
+        <Col ><Card className="US">
+              <Card.Img src="https://www.crwflags.com/fotw/images/u/us.gif" alt="Card image" width = {500} height = {300} style = {{opacity: .5}}/>
+              <Card.ImgOverlay>
+                <Card.Title>Today</Card.Title>
+                <Card.Text>
+                  United States
+                </Card.Text>
+                <Card.Text>9/28/19</Card.Text>
+              </Card.ImgOverlay>
+            </Card> </Col>
         <Col><img src="https://www.crwflags.com/fotw/images/c/ca.gif" alt="canada" style = {{opacity: .2}} height={140} width={280}/> </Col>
         <Col> <img src="https://cdn.britannica.com/40/5340-004-FA6D2EE9/Flag-Afghanistan.jpg" alt="afghanistan" height={140} width={280}/> </Col>
         </Row>
