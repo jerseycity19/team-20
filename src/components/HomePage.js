@@ -3,16 +3,16 @@ import "./HomePage.css";
 
 function HomePage() {
   return (
-    <div>
-      <div>
+    <div className="wholePage">
+      <div className="topNavBar">
         <btn> Log In </btn>
         <btn> Sign Up </btn>
       </div>
-      <div>
+      <div className="middleInfo">
         <h1> Globe Chat </h1>
         <h3> Team20 </h3>
       </div>
-      <div>
+      <div className="bottomInfo">
         Global Nomads Group harnesses the power of peer learning, intergroup
         contact theory, and storytelling in order to prepare young people to
         thrive in the 21st Century and lead positive change in their
