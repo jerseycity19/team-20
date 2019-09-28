@@ -14,7 +14,11 @@
     "react-dom": "^16.10.0",
     "react-router-dom": "^5.1.1",
     "react-scripts": "3.1.2",
+<<<<<<< HEAD
+    "reactstrap": "^8.0.1",
+=======
     "twilio": "^3.35.0",
+>>>>>>> 7c1962bff0254dd4f1f94ea00720029e9628f332
     "twilio-video": "^1.19.2"
   },
   "scripts": {
