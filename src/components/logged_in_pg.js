@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 function LoggedInLand() {
      return (
       <Container>
+
         <Row>
         <Col ><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png" alt="united states" height={70} width={140} onClick = {'./chatroom.js'}/> </Col>
         <Col><img src="https://www.crwflags.com/fotw/images/c/ca.gif" alt="canada" height={70} width={140} onClick = {'./chatroom.js'}/> </Col>
