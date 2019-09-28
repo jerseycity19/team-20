@@ -37,7 +37,7 @@ function ChatsPage() {
           <Card>
             <CardImg top width="100%" src="https://www.thenational.ae/image/policy:1.774492:1538032405/AC27-China.jpg?f=16x9&w=1200&$p$f$w=ed7ade9" alt="" />
             <CardBody>
-              <CardTitle>Chat 2<span className="span">[ 2/6 ]</span></CardTitle>
+              <CardTitle>Chat 2<span className="span">[ 0/6 ]</span></CardTitle>
               <h5>
                 <span>
                   <Badge color="danger">Chinese Credit System</Badge>
@@ -71,7 +71,7 @@ function ChatsPage() {
           <Card>
             <CardImg top width="100%" src="https://img.theculturetrip.com/768x432/wp-content/uploads/2017/12/chinese_plate_with_chopsticks_b.jpg" alt="" />
             <CardBody>
-              <CardTitle>Chat 4<span className="span">[ 6/6 ]</span></CardTitle>
+              <CardTitle>Chat 4<span className="span">[ 0/6 ]</span></CardTitle>
               <h5>
                 <span>
                   <Badge color="info">Chopsticks</Badge>
@@ -85,7 +85,7 @@ function ChatsPage() {
           <Card>
             <CardImg top width="100%" src="https://resize.hswstatic.com/w_907/gif/chinese-new-year-5.jpg" alt="" />
             <CardBody>
-              <CardTitle>Chat 5<span className="span">[ 2/6 ]</span></CardTitle>
+              <CardTitle>Chat 5<span className="span">[ 0/6 ]</span></CardTitle>
               <h5>
                 <span>
                   <Badge color="info">Chinese New Year</Badge>
