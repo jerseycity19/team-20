@@ -1,6 +1,56 @@
-.centered {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* .wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: skyblue;
+}
+
+.buttonStuff {
+  text-align: center;
+} */
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(
+    90deg,
+    rgba(58, 84, 180, 1) 0%,
+    rgba(29, 31, 253, 1) 50%,
+    rgba(69, 225, 252, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3%;
+}
+
+.signBigBox {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  width: 65%;
+  margin-top: 1%;
+}
+
+.signupInput,
+#optionStuff
+ {
+  float: right;
+}
+
+#optionStuff {
+  margin-top: 0
 }
