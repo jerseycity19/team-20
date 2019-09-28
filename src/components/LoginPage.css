@@ -1,6 +1,70 @@
-.centered {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.bigBox {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  display: inline-block;
+}
+
+.leftBox {
+  width: 50%;
+  height: 100%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+
+.logIn {
+  padding-bottom: 5%;
+}
+
+input, #optionStuff {
+  width: 70%;
+  background: white;
+  margin-top: 10%;
+}
+
+input::placeholder {
+  color: darkgray;
+}
+
+input {
+  padding-left: 1.5%;
+  outline: none;
+}
+
+.logButton:hover {
+  text-decoration: none;
+  color: white;
+  border-color: gray;
+  background-color: blue;
+}
+
+.logButton {
+  font-size: 20px;
+  text-align: center;
+  width: 70%;
+  background: lightblue;
+  padding: 5px;
+  margin-top: 7%
+}
+
+.emailBox {
+  margin-bottom: 2%
+}
+
+.userButton {
+  font-size: 20px;
+  color: blue;
+  margin-top: 5px
 }
