@@ -3,7 +3,7 @@ import NavBarComp from "./NavBarComp"
 import { Form } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import { Card } from "react-bootstrap";
-import "./LoginPage.css";
+import "./SignupPage.css";
 
 function LoginPage() {
   return (

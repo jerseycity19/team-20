@@ -8,6 +8,7 @@ import LoginPage from './components/LoginPage';
 import VideoComponent from './components/VideoComponent';
 import LoggedInLand from './components/logged_in_pg';
 import UserProfilePage from './components/user_profile_page';
+import SignupPage from './components/SignupPage'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
