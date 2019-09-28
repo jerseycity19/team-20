@@ -13,9 +13,9 @@
 
 .infoButton:hover {
   text-decoration: none;
-  color: gray;
+  color: white;
   border-color: gray;
-  background-color: salmon;
+  background-color: blue;
 }
 
 .infoButton {
