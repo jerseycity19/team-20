@@ -12,6 +12,7 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" render={HomePage} />
+          <Route exact path="/login" render={LoginPage} />
         </Switch>
       </Router>
       </header>
