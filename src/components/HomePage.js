@@ -5,12 +5,12 @@ function HomePage() {
   return (
     <div className="wholePage">
       <div className="topNavBar">
-        <btn> Log In </btn>
-        <btn> Sign Up </btn>
+        <btn className="infoButton"> LOG IN </btn>
+        <btn className="infoButton"> SIGN UP </btn>
       </div>
       <div className="middleInfo">
-        <h1> Globe Chat </h1>
-        <h3> Team20 </h3>
+        <text className="appName"> Globe Chat </text>
+        <text className="teamName"> Team20 </text>
       </div>
       <div className="bottomInfo">
         Global Nomads Group harnesses the power of peer learning, intergroup

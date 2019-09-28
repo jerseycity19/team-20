@@ -1,15 +1,49 @@
-.wholePage {
-    background-color: blue;    
-}
+/* .wholePage {
+  height: 100vh;
+} */
 
 .topNavBar {
-    background-color: yellow;
+  text-align: end;
+  margin-top: 1%;
+}
+
+.infoButton {
+  padding: 0.25% 1%;
+  margin-right: 2%;
+  border: solid 1px teal;
+  border-radius: 3px;
+  font-size: 70%;
+  font-family: "Abel";
+  color: teal;
+  height: 10vh;
 }
 
 .middleInfo {
-    background-color: green;
+  height: 93vh;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  margin-top: -1%;
+  background-image: url("https://www.stickpng.com/assets/images/580b585b2edbce24c47b2d44.png");
+  background-size: 60% 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+text {
+  font-family: "Abel";
+}
+
+.appName {
+  font-size: 350%;
+}
+
+.teamName {
+  font-size: 150%;
 }
 
 .bottomInfo {
-    background-color: purple;
+text-align: center;
+margin: 5%
 }
