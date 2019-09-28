@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser')
 const path = require('path');
 const app = express();
+const faker = require('faker');
 app.use(express.static(path.join(__dirname, 'build')));
 
 app.get('/ping', function (req, res) {
@@ -24,7 +25,7 @@ if(process.env.NODE_ENV === 'DEV') {
 // Endpoint to generate access token
 app.get('/token', function(request, response) {
    var identity = faker.name.findName();
-
+    //console.log(request.query.accsid);
    // Create an access token which we will sign and return to the client,
    // containing the grant we just created
    var token = new AccessToken(
