@@ -1,20 +1,25 @@
-/* .wholePage {
-  height: 100vh;
-} */
-
 .topNavBar {
-  text-align: end;
   margin-top: 1%;
+  text-align: center
+}
+
+.logo {
+  width: 3vw;
+}
+
+#logo {
+    margin-right: 40%;
 }
 
 .infoButton:hover {
   text-decoration: none;
   color: gray;
   border-color: gray;
-  background-color: salmon
+  background-color: salmon;
 }
 
 .infoButton {
+  text-align: end;
   padding: 0.25% 1%;
   margin-right: 2%;
   border: solid 1px teal;
@@ -27,15 +32,16 @@
 .middleInfo {
   height: 93vh;
   text-align: center;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
   display: flex;
   margin-top: -1%;
   margin-bottom: 2%;
-  /* background-image: url("https://www.stickpng.com/assets/images/580b585b2edbce24c47b2d44.png");
-  background-size: 60% 90%;
+  background-image: url("https://premieroffshore.com/wp-content/uploads/2016/12/Which-Countries-Tax-Worldwide-Income.jpg");
+  background-size: 100% 90%;
   background-repeat: no-repeat;
-  background-position: center; */
+  background-position: center;
 }
 
 text {
@@ -44,12 +50,12 @@ text {
 
 .appName {
   font-size: 350%;
-}
-
-.teamName {
-  font-size: 150%;
+  background-color: white;
+  color: black;
+  width: 45%
 }
 
 .bottomInfo {
   text-align: center;
+  padding: 0 10% 10% 10% 
 }
