@@ -5,9 +5,12 @@ import { Button } from "react-bootstrap";
 import { Card } from "react-bootstrap";
 import "./LoginPage.css";
 
+
 function LoginPage() {
   return (
+    
     <div className="centered">
+  
         <NavBarComp />
     <Card style={{ width: '18rem' }}>
   <Card.Body>
@@ -21,8 +24,8 @@ function LoginPage() {
           <Form.Label>Password</Form.Label>
           <Form.Control type="password" placeholder="Password" />
         </Form.Group>
-        <Button variant="primary" type="submit" href="/LoggedInLand">
-          Submit
+        <Button variant="primary" type="submit" href="/loggedin">
+          Log In
         </Button>
       </Form>
   </Card.Body>
