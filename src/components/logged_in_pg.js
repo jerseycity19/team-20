@@ -17,9 +17,9 @@ function LoggedInLand() {
     <Card.Text>
       3 Americans Online
     </Card.Text>
-    <Link to="/chat">
+    
     <Button variant="primary">Go to America</Button>
-    </Link>
+   
     </Card.Body>
     </Card>
      </Col>
@@ -99,10 +99,13 @@ function LoggedInLand() {
     <Card.Text>
       5 Chinese Online
     </Card.Text>
+    <Link to="/chat">
     <Button variant="primary" /*onClick = {}*/>Go to China</Button>
+    </Link>
     </Card.Body>
     </Card>
      </Col>
+
         <Col>
 
         <Card style={{ width: '22rem' }}>
