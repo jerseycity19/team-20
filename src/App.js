@@ -1,7 +1,7 @@
   
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import HomePage from './components/HomePage';
 import UserProfilePage from './components/user_profile_page';
@@ -13,8 +13,8 @@ function App() {
       <header className="App-header">
       <Router>
         <Switch>
-          <Route exact path="/HomePage" render={HomePage} />
-          <Route exact path="/" render={UserProfilePage} />
+          <Route exact path="/" render={HomePage} />
+          <Route exact path="/UserProfilePage" render={UserProfilePage} />
         </Switch>
       </Router>
       </header>
