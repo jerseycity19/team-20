@@ -8,7 +8,7 @@ function LoggedInLand() {
 
      return (
       <Container>
-
+      <br/>
         <Row>
         <Col ><Card style={{ width: '22rem' }}>
     <Card.Img variant="top" src="https://www.crwflags.com/fotw/images/u/us.gif" width={140} height={200} />
@@ -17,9 +17,9 @@ function LoggedInLand() {
     <Card.Text>
       3 Americans Online
     </Card.Text>
-    <Link to="/chat">
+    
     <Button variant="primary">Go to America</Button>
-    </Link>
+   
     </Card.Body>
     </Card>
      </Col>
@@ -59,7 +59,7 @@ function LoggedInLand() {
   <Card.Body>
     <Card.Title>Afghanistan</Card.Title>
     <Card.Text>
-      4 Afghanistans Online
+      4 Afghanistanis Online
     </Card.Text>
     <Button variant="primary">Go to Afghanistan</Button>
   </Card.Body>
@@ -99,10 +99,13 @@ function LoggedInLand() {
     <Card.Text>
       5 Chinese Online
     </Card.Text>
+    <Link to="/chat">
     <Button variant="primary" /*onClick = {}*/>Go to China</Button>
+    </Link>
     </Card.Body>
     </Card>
      </Col>
+
         <Col>
 
         <Card style={{ width: '22rem' }}>
@@ -110,7 +113,7 @@ function LoggedInLand() {
     <Card.Body>
     <Card.Title >Turkey</Card.Title>
     <Card.Text>
-      5 Turkic People Online
+      5 Turkish People Online
     </Card.Text>
     <Button variant="primary">Go to Turkey</Button>
     </Card.Body>
