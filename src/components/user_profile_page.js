@@ -6,6 +6,7 @@ function UserProfilePage() {
   return (
     <Container>
         <Row className='text-center additional-bottom-padding'>
+          <Col><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="new" width = {500} height = {300}  style={{opacity: 0.5}}/></Col>
           <Col>Sarah Jang</Col>
           <Col>United States</Col>
           <Col>Korean</Col>
