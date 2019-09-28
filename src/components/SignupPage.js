@@ -7,7 +7,7 @@ import "./SignupPage.css";
 
 function LoginPage() {
   return (
-    <div className="centered">
+    <div className="wrapper">
       <NavBarComp />
       <Card style={{ width: "18rem" }}>
         <Card.Body>
@@ -39,9 +39,11 @@ function LoginPage() {
                 <option>5</option>
               </Form.Control>
             </Form.Group>
-            <Button variant="primary" type="submit" href="/login">
-              Sign Up
-            </Button>
+            <div className="buttonStuff">
+              <Button variant="primary" type="submit" href="/login">
+                Sign Up
+              </Button>
+            </div>
           </Form>
         </Card.Body>
       </Card>
