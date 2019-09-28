@@ -18,9 +18,10 @@ function App() {
         <Switch>
           <Route exact path="/" render={HomePage} />
           <Route exact path="/login" render={LoginPage} />
+          <Route exact path="/signup" render={SignupPage} />
           <Route exact path="/video" render={VideoComponent} />
-          <Route exact path="/LoggedInLand" render={LoggedInLand}/>
-          <Route exact path="/UserProfilePage" render={UserProfilePage} />
+          <Route exact path="/loggedin" render={LoggedInLand}/>
+          <Route exact path="/profile" render={UserProfilePage} />
         </Switch>
       </Router>
       </header>
